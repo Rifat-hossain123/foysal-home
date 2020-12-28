@@ -1,0 +1,90 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+#header{
+	background-image: url(ict.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 100%;
+}
+#menu{
+	max-width: 100%;
+	margin: 0px;
+	padding: 30px;
+	background-color:  #666666;
+}
+#footer{
+	max-width: 100%;
+}
+.head{
+	font-size:80px;
+	color: #ff3300;
+	text-shadow: 2px 2px #66ffff;
+	padding: 200px 0px 0px 0px;
+	margin: 0 auto;
+	animation: type 5s steps(22);
+	overflow: hidden;
+	white-space: nowrap;
+	animation-iteration-count: infinite;
+}
+
+@keyframes type {
+	0%{
+		width: 0ch;
+	}
+
+	100%{
+		width: 22ch;
+	}
+}
+
+p{
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px 0px 50px 0px;
+	color: #00bfff;
+	text-shadow: 1px 1px #f2f2f2;
+}
+#footer{
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	position: center;
+	text-align: center;
+}
+	
+
+#footer a{
+	color: #e6f2ff;
+}
+.menu-bar{
+	background-color:#00ffff;
+	height: 100px;
+	max-width: 100%;
+	padding: 20px;
+}
+.menu-bar a{
+	font-size: 50px;
+	background-color:#004d4d;
+	color: white;
+	text-shadow: 2px 2px white;
+	margin: 20px;
+	max-width: 100%;
+	color: black;
+}
+.menu-bar a:hover{
+	background-color: black;
+	color: white;
+	text-shadow: 2px 2px red;
+}
